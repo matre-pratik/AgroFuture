@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Menbere:wght@100..700&family=Merienda:wght@500&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+        /* font-family: "Merienda", cursive; */
+}
+
+.navbar{
+    background-color: #228b22;
+    position: sticky !important; 
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbar .container-fluid a:hover,
+.collapse .navbar-nav .nav-item a:hover{
+    color: #ffd700 !important;
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero1 {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(168, 230, 163, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: #333333
+}
+.content h2 span{
+  display: block;
+  color: #228b22;
+}
+.content .btn{
+    background-color: #ffd700;
+    color: #228b22;
+}
+
+.about-section{
+  width: 100%;
+  height: auto;
+  background-color:  #A8E6A3;
+}
+.about{
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #57a152;
+}
+.about-content{
+  width: 70%;
+  height: auto;
+}
+.about-content h4{
+  font-weight: bold;
+  color: #228b22;
+}
+.about-content h6, .about-content p, ul li{
+  color: #333333;
+}
+.about-content p span, .about-content h6 span{
+  color: #ffd700;
+}
+.about-content ul li{
+  list-style: decimal;
+}
+.about-img{
+  width: 30%;
+  height: auto;
+}
+.about-img img{
+  width: 100%;
+  margin: 4px;
+  border-radius: 13px;
+}
+
+.benefits-section{
+  width: 100%;
+  margin: auto;
+  background-color: #A8E6A3;
+}
+.benefits{
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #57a152;
+}
+.benefits h4{
+  font-weight: bold;
+  color: #228b22;
+}
+.benefits-card .card-title{
+  color: #ffd700;
+}
+
+.schemes-section{
+  width: 100%;
+  margin: auto;
+  background-color: #A8E6A3;
+}
+.scheme-list{
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #57a152;
+}
+.scheme-list h4{
+  font-weight: bold;
+  color: #228b22;
+}
+.card .card-header{
+  color: #ffd700;
+}
+
+.tips-section{
+  width: 100%;
+  margin: auto;
+  background-color: #A8E6A3;
+}
+.tip-list{
+  max-width: 70%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #57a152;
+  transition: all 1s ease-in-out;
+}
+.tip-list1{
+  width: 50%;
+}
+.tip-heading h4{
+  font-weight: bold;
+  color: #228b22;
+  transition: all 1s ease-in-out;
+}
+.tip-item ul li{
+  color: #333333;
+  transition: all 1s ease-in-out;
+}
+.tip-list:hover{
+    background-color: #333333;
+    transform: scale(1.05);
+}
+.tip-list:hover h4{
+  color: #ffd700;
+}
+.tip-list:hover li{
+   color: #ffffff;
+}
+.tip-item ul li:hover{
+  list-style: none;
+  transform: scale(1.05);
+  color: #228b22;
+}
+.tip-list .img{
+  width: 50%;
+}
+.tip-list .img img{
+  border-radius: 13px;
+  width: 100%;
+}
+
+.contact-us{
+  width: 100%;
+  margin: auto;
+  background-color: #A8E6A3;
+}
+.form{
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 15px;
+  box-shadow: inset 5px 5px 20px #57a152;
+}
+.form h4{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px ;
+  color: #228b22;
+}
+.form .form-control{
+ background-color: #ffffff;
+ border: 2px solid #57a152;
+ box-shadow: inset 4px 4px 20px #A8E6A3;
+}
+input::placeholder{
+  color: #33333367 !important;
+}
+.button input{
+  font-weight: 600;
+  width: 60%;
+  background-color: #ffd700;
+  color: #228b22;
+  border: 2px solid #A8E6A3;
+  border-radius: 20px;
+  transition: all 1s ease-in-out;
+}
+.button input:hover{
+   transform: scale(1.05);
+   color: #ffd700;
+   background-color: #57a152;
+   border: 2px solid #ffd700;
+}
+.footer{
+  background-color: #228b22;
+  height: 50px;
+}
+.copyright{
+  font-size: 14px;
+}
+.copyright p, .icons ul{
+  margin: 0px !important;
+}
+
+.icons ul li{
+  padding: 0px 8px;
+  list-style: none;
+  transition: all 1s ease;
+
+}
+.icons ul li i{
+  padding: 3px;
+  font-size: 16px;
+}
+.icons ul li:hover{
+  transform: scale(1.2);
+}
+.icons ul li:hover .fa-instagram{
+   color: rgb(187, 54, 165);
+   background-color: #ffffff;
+   border-radius: 50%;
+}
+.icons ul li:hover .fa-whatsapp{
+   color: #228b22;
+   background-color: #ffffff;
+   border-radius: 50%;
+}
+.icons ul li:hover .fa-facebook{
+   color: rgb(26, 120, 197);
+   background-color: #ffffff;
+   border-radius: 50%;
+}
+.icons ul li:hover .fa-twitter{
+   color: rgb(26, 120, 197);
+   background-color: #ffffff;
+   border-radius: 50%;
+}
+.call{
+  background-color: #ffffff;
+  border-radius: 6px;
+  position: fixed;
+  bottom: 53px;
+  right: 50px;
+}
+.call a i{
+   color: rgb(61, 61, 228);
+}
+.back-up{
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+.back-up button{
+  transform: rotate(90deg);
+  font-weight: bolder;
+  background-color: #ffd700;
+  color: #228b22;
+  border-radius: 6px;
+}
+.back-up button:hover{
+     transform: rotate(90deg) scale(1.02);
+     color: #ffd700;
+     background-color: #228b22;
+}
+
+/* media query */
+
+@media screen and (max-width:768px) {
+  .about{
+    width: 100%;
+    flex-direction: column;
+  }
+  .about-content, .about-img{
+    width: 90%;
+  }
+  .benefits{
+    width: 100%;
+  }
+  .benefits-card{
+    flex-direction: column;
+  }
+  .card{
+    width: 70%;
+  }
+  .scheme-list{
+    width: 100%;
+  }
+  .scheme-item{
+    flex-direction: column;
+  }
+  .tip-list{
+    flex-direction: column;
+    width: 80%;
+  }
+  .tip-list1{
+    width: 100%;
+  }
+  .tip-list .img{
+    width: 100%;
+  }
+  .tip-list .img img{
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+  }
+  .copyright{
+    font-size: 12px;
+  }
+  .icons ul li{
+    padding: 4px;
+  }
+  .icons ul li i{
+    font-size: 14px;
+    padding: 1px;
+  }
+}
