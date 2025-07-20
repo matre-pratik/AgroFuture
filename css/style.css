@@ -142,7 +142,7 @@
   background-color: #A8E6A3;
 }
 .tip-list{
-  max-width: 70%;
+  max-width: 90%;
   margin: auto;
   background-color: #ffffff;
   border-radius: 15px;
@@ -181,7 +181,7 @@
 }
 .tip-list .img img{
   border-radius: 13px;
-  width: 100%;
+  height: 100%;
 }
 
 .contact-us{
@@ -308,14 +308,22 @@ input::placeholder{
   .about-content, .about-img{
     width: 90%;
   }
+  .about-content h4{
+    padding-top: 10px;
+    text-align: center;
+  }
   .benefits{
     width: 100%;
+  }
+  .benefits h4{
+    padding-top:10px ;
+    text-align: center;
   }
   .benefits-card{
     flex-direction: column;
   }
   .card{
-    width: 70%;
+    width: 100%;
   }
   .scheme-list{
     width: 100%;
@@ -325,7 +333,7 @@ input::placeholder{
   }
   .tip-list{
     flex-direction: column;
-    width: 80%;
+    width: 90%;
   }
   .tip-list1{
     width: 100%;
