@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,9 +17,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg shadow sticky-top">
+    <nav class="navbar navbar-expand-lg shadow">
       <div class="container-fluid">
         <!-- Left Side: Brand -->
         <a class="navbar-brand text-white" href="#">AgroFuture</a>
@@ -44,11 +44,11 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white" href="#home">Home</a>
+              <a class="nav-link active text-white" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-white" href="about.html">About</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link text-white" href="schemes.html">Schemes</a>
             </li>
@@ -63,23 +63,7 @@
       </div>
     </nav>
 
-    <!-- hero-section -->
-    <section class="container-fluid hero">
-      <div id="home" class="row py-4 py-sm-5 hero1">
-        <div class="col-11 m-auto d-flex flex-column  align-items-center content">
-          <h2 class="display-3 fw-bold ">Welcome to<span class="d-block">AgroFuture</span></h2>
-<p class="lead mb-4 text-center">
-            Empowering Farmers, Shaping the Future of Agriculture
-          </p>
-          <h4 class="display-6 fw-bold text-center">Your Trusted Farming Partner</h4>
-          <a href="schemes.html" class="btn btn-primary btn-lg me-3">
-            Explore Schemes
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- about section -->
+     <!-- about section -->
     <section class="container-fluid flex-grow-1 my-3 about-section">
       <div
         class="container d-flex flex-column flex-md-row justify-content-center align-items-center bg-light p-md-1 p-lg-4 about"
@@ -117,68 +101,14 @@
       </div>
     </section>
 
-    <!-- Benefits section -->
-    <section class="container-fluid my-3 benefits-section">
-      <div class="container p-2 p-sm-3 benefits">
-        <h4 class="fw-bold text-center">Why Choose Modern Farming?</h4>
-        <div class="d-flex flex-column flex-md-row justify-content-evenly benefits-card">
-          <div class="card m-1" style="width: auto">
-            <img src="./img/card1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Increased Productivity</h5>
-              <p class="card-text">
-                Modern tools and techniques allow farmers to grow more crops in
-                less time.
-              </p>
-              <p class="card-text">
-                Advanced fertilizers and hybrid seeds result in higher yields.
-              </p>
-            </div>
-          </div>
-          <div class="card m-1" style="width: auto">
-            <img src="./img/card2.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Water Conservation</h5>
-              <p class="card-text">
-                Drip irrigation and sprinkler systems reduce water wastage.
-              </p>
-              <p class="card-text">
-                Rainwater harvesting ensures proper water storage for farming
-                needs.
-              </p>
-            </div>
-          </div>
-          <div class="card m-1" style="width: auto">
-            <img src="./img/card3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Organic Farming</h5>
-              <p class="card-text">
-                Helps produce healthier crops without harmful chemicals.
-              </p>
-              <p class="card-text">
-                Maintains soil fertility and reduces pollution.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- footer -->
+ <!-- footer -->
     <footer class="">
-      <div
-        class="row d-flex justify-content-center align-items-center m-0 footer"
-      >
-        <div
-          class="col-12 col-sm-7 d-flex justify-content-center align-items-center copyright"
-        >
-          <p class="m-0">
-            2025 &copy; <b>Pratik Matre. All rights reserved.</b>
-          </p>
+      <div class="row d-flex justify-content-center  align-items-center m-0 footer">
+        <div class="col-12 col-sm-7 d-flex justify-content-center  align-items-center copyright ">
+          <p class="m-0">2025 &copy; <b>Pratik Matre. All rights reserved.</b></p>
         </div>
-        <div
-          class="col-12 col-sm-5 d-flex justify-content-center align-items-center icons"
-        >
+        <div class="col-12 col-sm-5 d-flex justify-content-center  align-items-center icons">
           <ul class="d-flex align-items-center m-0">
             <li class="px-2"><i class="p-1 fa-brands fa-instagram"></i></li>
             <li class="px-2"><i class="p-1 fa-brands fa-whatsapp"></i></li>
@@ -188,26 +118,11 @@
         </div>
       </div>
     </footer>
-   
-      <div class="back-up">
-        <a href="#home" class="px-2 py-1">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-arrow-bar-up"
-            viewBox="0 0 16 16"
-           >
-            <path
-              fill-rule="evenodd"
-              d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"
-            />
-          </svg>
-        </a>
-     
-    </div>
-    <!-- bootstrap 5.3.3 -->
+
+
+     <!-- bootstrap 5.3.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+
