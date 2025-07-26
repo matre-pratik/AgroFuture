@@ -1,195 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Menbere:wght@100..700&family=Merienda:wght@500&family=Poppins:wght@400;500;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Menbere:wght@100..700&family=Merienda:wght@500&family=Poppins:wght@400;500;600&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-        /* font-family: "Merienda", cursive; */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Merienda", cursive; */
 }
-:root{
+:root {
   --primary-color: #228b22;
   --secondary-color: #ffd700;
-  --bg-color: #A8E6A3;
-  --text-color:#333333;
+  --bg-color: #a8e6a3;
+  --text-color: #333333;
 }
-body{
-    background-color: var(--bg-color) !important;
+body {
+  background-color: var(--bg-color) !important;
 }
-.navbar{
-    background-color: var(--primary-color);
+/* navbar */
+.navbar {
+  background-color: var(--primary-color);
 }
 .navbar .container-fluid a:hover,
-.collapse .navbar-nav .nav-item a:hover{
-    color: var(--secondary-color) !important;
+.collapse .navbar-nav .nav-item a:hover {
+  color: var(--secondary-color) !important;
 }
+
+/* hero-section */
 .hero {
   background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
 .hero1 {
   background-color: rgba(168, 230, 163, 0.7);
 }
-
-.content h2 span{
+.content h2 span {
   color: var(--primary-color);
 }
-.content .btn{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+.content .btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
-.about{
+/* about */
+.about {
   border-radius: 15px;
   box-shadow: 5px 5px 20px #57a152;
 }
-.about-content h4{
+.about-content h4 {
   color: var(--primary-color);
 }
-.about-content h6, .about-content p, ul li{
+.about-content h6,
+.about-content p,
+ul li {
   color: var(--text-color);
 }
-.about-content p span, .about-content h6 span{
+.about-content p span,
+.about-content h6 span {
   color: var(--secondary-color);
 }
-.about-content ul li{
+.about-content ul li {
   list-style: decimal;
 }
-.about-img img{
+.about-img img {
   border-radius: 13px;
 }
 
-.benefits{
+/* benefits-section */
+.benefits {
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 5px 5px 20px #57a152;
 }
-.benefits h4{
+.benefits h4 {
   color: var(--primary-color);
 }
-.benefits-card .card-title{
+.benefits-card .card-title {
   color: var(--secondary-color);
 }
 
 /* schemes  */
-.scheme-list{
+.scheme-list {
   border-radius: 15px;
   box-shadow: 5px 5px 20px #57a152;
 }
-.scheme-list h4{
+.scheme-list h4 {
   color: var(--primary-color);
 }
-.card .card-header{
+.card .card-header {
   color: var(--secondary-color);
   background-color: var(--text-color);
 }
 
 /* tips  */
-.tip-list{
+.tip-list {
   border-radius: 15px;
   box-shadow: 5px 5px 20px #57a152;
   transition: all 1s ease-in-out;
 }
-.tip-heading h4{
+.tip-heading h4 {
   color: var(--primary-color);
   transition: all 1s ease-in-out;
 }
-.tip-item ul li{
+.tip-item ul li {
   color: var(--text-color);
   transition: all 1s ease-in-out;
 }
-.tip-list:hover{
-    background-color: var(--text-color) !important;
+.tip-list:hover {
+  background-color: var(--text-color) !important;
 }
-.tip-list:hover h4{
+.tip-list:hover h4 {
   color: var(--secondary-color);
 }
-.tip-list:hover li{
-   color: #ffffff;
+.tip-list:hover li {
+  color: #ffffff;
 }
-.tip-item ul li:hover{
+.tip-item ul li:hover {
   list-style: none;
   transform: scale(1.05);
   color: var(--primary-color);
 }
-
-.tip-list .img img{
+.tip-list .img img {
   border-radius: 20px;
-} 
+}
 
 /* contact */
-.contact{
+.contact {
   border-radius: 15px;
   box-shadow: inset 5px 5px 20px var(--bg-color);
 }
-.contactHeading h4, .directCont h5{
+.contactHeading h4,
+.directCont h5 {
   color: var(--primary-color);
 }
-.directCont p{
+.directCont p {
   color: var(--secondary-color);
 }
-.directCont a, .contactForm .form-label{
+.directCont a,
+.contactForm .form-label {
   color: var(--text-color);
   text-decoration: none;
 }
-.directCont a .email{
+.directCont a .email {
   color: rgb(219, 68, 55);
 }
-.directCont a .call{
+.directCont a .call {
   color: rgb(61, 61, 228);
 }
 
 /* footer */
-.footer{
+.footer {
   background-color: var(--primary-color);
   height: 50px;
 }
-
-.icons ul li{
+.icons ul li {
   list-style: none;
   transition: all 1s ease;
 }
-
-.icons ul li:hover{
+.icons ul li:hover {
   transform: scale(1.2);
 }
-.icons ul li:hover .fa-instagram{
-   color: rgb(187, 54, 165);
-   background-color: #ffffff;
-   border-radius: 50%;
+.icons ul li:hover .fa-instagram {
+  color: rgb(187, 54, 165);
+  background-color: #ffffff;
+  border-radius: 50%;
 }
-.icons ul li:hover .fa-whatsapp{
-   color: var(--primary-color);
-   background-color: #ffffff;
-   border-radius: 50%;
+.icons ul li:hover .fa-whatsapp {
+  color: var(--primary-color);
+  background-color: #ffffff;
+  border-radius: 50%;
 }
-.icons ul li:hover .fa-facebook{
-   color: rgb(26, 120, 197);
-   background-color: #ffffff;
-   border-radius: 50%;
+.icons ul li:hover .fa-facebook {
+  color: rgb(26, 120, 197);
+  background-color: #ffffff;
+  border-radius: 50%;
 }
-.icons ul li:hover .fa-twitter{
-   color: rgb(26, 120, 197);
-   background-color: #ffffff;
-   border-radius: 50%;
+.icons ul li:hover .fa-twitter {
+  color: rgb(26, 120, 197);
+  background-color: #ffffff;
+  border-radius: 50%;
 }
-
-.back-up{
+/* back to up button */
+.back-up {
   position: fixed;
   bottom: 50px;
   right: 10px;
 }
-.back-up a{
+.back-up a {
   background-color: var(--secondary-color);
   color: var(--text-color);
   border-radius: 6px;
   transition: all 1s ease;
 }
-.back-up a:hover{
-     color: var(--text-color);
-     background-color: var(--primary-color);
+.back-up a:hover {
+  color: var(--text-color);
+  background-color: var(--primary-color);
 }
