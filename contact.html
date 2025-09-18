@@ -60,9 +60,12 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="tips.html">Tips</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link text-white" href="contact.html">Contact Us</a>
-            </li> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="admin.html">Login</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -113,7 +116,7 @@
                     type="email"
                     name="email"
                     class="form-control"
-                    id="email1"
+                    id="email"
                     placeholder="name@example.com"
                     required
                   />
@@ -123,18 +126,18 @@
                   <textarea
                     class="form-control"
                     name="message"
-                    id="textarea1"
+                    id="message"
                     rows="3"
                     required
                   ></textarea>
                 </div>
                 <div class="d-flex justify-content-center">
-                  <button type="submit" class="btn btn-success w-75">
-                    Submit
-                  </button>
+                 
+                  <button type="submit" class="btn btn-success w-75" onclick="handleCreateForm()" id="submitBtn">Send</button>
                 </div>
               </form>
             </div>
+
           </div>
         </div>
       </div>
@@ -167,5 +170,7 @@
 
     <!-- bootstrap 5.3.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>

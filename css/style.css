@@ -94,12 +94,12 @@ ul li {
 }
 
 /* tips  */
-.tip-list {
+.tip-list{
   border-radius: 15px;
   box-shadow: 5px 5px 20px #57a152;
   transition: all 1s ease-in-out;
 }
-.tip-heading h4 {
+.tip-heading h4{
   color: var(--primary-color);
   transition: all 1s ease-in-out;
 }
@@ -149,6 +149,19 @@ ul li {
   color: rgb(61, 61, 228);
 }
 
+/* admin login */
+
+.adminForm{
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #57a152;
+  background-color: var(--text-color) !important;
+
+}
+.admin-heading{
+   color: var(--primary-color);
+}
+
+
 /* footer */
 .footer {
   background-color: var(--primary-color);
@@ -197,3 +210,52 @@ ul li {
   color: var(--text-color);
   background-color: var(--primary-color);
 }
+
+
+#submittedForm{
+    margin:10px 0px 0px 10px;
+    font-size: large;
+    padding: 10px;
+    display: inline-block;
+}
+#form {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      
+    }
+    .form-item {
+      width: 31%; 
+      min-height: 30%;
+      background-color: white;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+    .form-item button {
+      margin-top: 5px;
+      margin-right: 10px;
+      padding: 6px 10px;
+      border: none;
+      cursor: pointer;
+      color: white;
+    }
+    .edit {
+      background-color: #28a745;
+    }
+    .delete {
+      background-color: #dc3545;
+    }
+
+    /* a{
+      padding: 10px 15px;
+      margin-top: 10px;
+      cursor: pointer;
+      background-color: grey;
+      color: white;
+      border: none;
+      text-decoration: none;
+      font-size: 13.33px;
+    } */
